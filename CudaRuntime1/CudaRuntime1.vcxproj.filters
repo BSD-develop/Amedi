@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="CUDAmedi_cuda.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="CommonData.cpp">
+      <Filter>imported</Filter>
+    </ClCompile>
+    <ClCompile Include="WSAInitializer.cpp">
+      <Filter>imported</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedHash.cpp">
+      <Filter>imported</Filter>
+    </ClCompile>
+    <ClCompile Include="arith_uint256.cpp">
+      <Filter>imported</Filter>
+    </ClCompile>
+    <ClCompile Include="utilstrencodings.cpp">
+      <Filter>imported</Filter>
+    </ClCompile>
+    <ClCompile Include="wrapadl.cpp">
+      <Filter>imported</Filter>
+    </ClCompile>
+    <ClCompile Include="wraphelper.cpp">
+      <Filter>imported</Filter>
+    </ClCompile>
+    <ClCompile Include="wrapnvml.cpp">
+      <Filter>imported</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgPow.cpp">
+      <Filter>progpow</Filter>
+    </ClCompile>
+    <ClCompile Include="buildInfo.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client.h" />
+    <ClInclude Include="CommonData.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedHash.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_ref.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="WSAInitializer.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="assertions.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json_features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="arith_uint256.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="uint256.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="utilstrencodings.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="portable_endian.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="ethash.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="ethash.hpp">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_types.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_types.hpp">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="wrapadl.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="wraphelper.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="wrapnvml.h">
+      <Filter>imported</Filter>
+    </ClInclude>
+    <ClInclude Include="progpow.hpp">
+      <Filter>progpow</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgPow.h">
+      <Filter>progpow</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDAmedi_cuda.h" />
+    <ClInclude Include="cuda_helper.h" />
+    <ClInclude Include="progpow_cuda_miner_kernel_globals.h" />
+    <ClInclude Include="buildInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imported">
+      <UniqueIdentifier>{ed8d59af-b14c-46d2-b02f-c7da9c88fff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{124f8900-5808-4c62-b7d3-cea1b4d37260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="progpow">
+      <UniqueIdentifier>{4f8f586b-e9d6-4aed-a18a-278a15540f8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
